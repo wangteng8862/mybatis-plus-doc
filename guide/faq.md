@@ -256,6 +256,8 @@ jdbc:mysql://127.0.0.1:3306/mp?tinyInt1isBit=false
 
 insert 后主键会自动 set 到实体的 ID 字段，所以你只需要 getId() 就好
 
+## service save后如何返回主键
+
 ## MP 如何查指定的几个字段
 
 EntityWrapper.sqlSelect 配置你想要查询的字段
